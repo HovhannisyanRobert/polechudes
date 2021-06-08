@@ -1,0 +1,55 @@
+main{
+    width:100% ;
+    text-align: center;
+    .main_cont{
+        width: 80%;
+        height: 30vh;
+        border: 2px solid red;
+        margin: 0 auto;
+        background-image: linear-gradient(to right, rgb(0, 102, 255) , yellow);
+        .faf{
+            width: 10%;
+            height: 20vh;
+            margin-top: 30px;
+            margin-left: 10px;
+            border: 2px solid white;
+            background-color: blue;
+            display: inline-flex;
+            .letters_div{
+                width: 90%;
+                height: 13vh;
+                background-color: rgb(255, 255, 255);
+                margin: 0 auto;
+                margin-top: 25px;
+                // display: none;
+                h2{
+                    font-size: 35px;
+                }
+
+            }
+        }
+    }
+}
+
+
+.letters_cont{
+    width: 40%;
+    background-image: linear-gradient(to right, rgb(255, 153, 0) , rgb(123, 255, 0));
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 30px;
+    button{
+        display: inline-flex;
+        width: 5%;
+        height: 5vh;
+        margin: 10px 5px;
+        text-align: center;
+        align-items: center;
+        border: 0;
+        justify-content: center;
+        &:hover{
+            cursor: pointer;
+            background-color: grey;
+        }
+    }
+}
